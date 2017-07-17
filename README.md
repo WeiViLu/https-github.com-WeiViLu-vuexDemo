@@ -103,7 +103,7 @@ export default store
 
  
 
-四、在组件中修改状态
+# 四、在组件中修改状态
 
 然后在 header.vue 中添加一个输入框，将输入框的值传给 store.js 中的 author
 
@@ -127,7 +127,7 @@ methods: {
 
 
 
-五、官方推荐的修改状态的方式
+# 五、官方推荐的修改状态的方式
 
 上面的示例是在 setAuthor 直接使用赋值的方式修改状态 author，但是 vue 官方推荐使用下面的方法：
 
